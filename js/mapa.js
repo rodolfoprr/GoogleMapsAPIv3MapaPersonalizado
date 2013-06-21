@@ -41,7 +41,7 @@ function carregarPontos() {
 			});
 			
 			var myOptions = {
-				content: "<p>Conteúdo do InfoBox</p>",
+				content: "<p>" + ponto.Descricao + "</p>",
 				pixelOffset: new google.maps.Size(-150, 0)
         	};
 
